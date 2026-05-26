@@ -1,6 +1,6 @@
 # veritas-sandbox
 
-> Working smart contract escrow and disbursement demo on Polygon Amoy testnet — simulating Verita use cases with real on-chain transactions.
+> Working smart contract escrow and disbursement demo on Polygon Amoy testnet — simulating legal-financial settlement use cases with real on-chain transactions.
 
 ---
 
@@ -84,7 +84,7 @@ veritas-sandbox/
 ## Architecture
 
 ```
-Administrator (Verita trustee)
+Administrator (Court-Appointed Trustee)
         │
         ▼
   VeritaEscrow.sol
@@ -103,6 +103,6 @@ Administrator (Verita trustee)
 
 ## Related
 
-- [`veritas-blockchain`](https://github.com/cmahadeo77/veritas-blockchain) — Strategic framework and use case documentation
+- [`veritas-blockchain`](https://github.com/cmahadeo77/Veritas-blockchain) — Strategic framework and use case documentation
 - [Polygon Amoy Explorer](https://amoy.polygonscan.com)
 - [Circle USDC Faucet](https://faucet.circle.com)
