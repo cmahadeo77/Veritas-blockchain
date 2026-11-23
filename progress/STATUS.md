@@ -1,6 +1,6 @@
 # Status - Veritas-blockchain
 
-_Last reviewed: 2026-10-20_
+_Last reviewed: 2026-11-23_
 
 Smart-contract escrow and waterfall-disbursement sandbox simulating legal-financial settlement (class action, Chapter 11, trustee escrow).
 
@@ -13,13 +13,15 @@ Smart-contract escrow and waterfall-disbursement sandbox simulating legal-financ
 | scripts/demo-disbursement.js | Written | Demo runner |
 | Frontend (React) | Scaffolded | `App.js`, contract + Horizon helpers |
 | Testnet deployment | Not started | Contract address table in README is still TBD |
-| Tests | Missing | README references test files not yet committed |
+| MockUSDC.sol | Written | 6-decimal test token, owner mint |
+| Tests | 14 passing | `test/VeritaEscrow.test.js`, `test/VeritaWaterfall.test.js` (`npx hardhat test`) |
 
 ## Known gaps
 
-- README references `scripts/deploy.js`, `contracts/MockUSDC.sol`, `scripts/demo-waterfall.js`, and `test/*.test.js` which are not in the repo.
+- README still references `scripts/deploy.js` and `scripts/demo-waterfall.js`, which are not in the repo.
+- Access-control and withdrawal bugs found while testing; see M1.5 in the roadmap.
 - Contract addresses table still TBD.
 
 ## Next up
 
-See **M1 - Make the README true** in [ROADMAP.md](ROADMAP.md).
+Finish M1 (deploy + waterfall scripts), then **M1.5 - Contract fixes** in [ROADMAP.md](ROADMAP.md).
