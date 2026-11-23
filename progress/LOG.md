@@ -2,6 +2,12 @@
 
 Newest first. Earlier entries are reconstructed from git history.
 
+## 2026-11-23
+
+- Added `contracts/MockUSDC.sol` and Hardhat tests for escrow and waterfall (14 passing).
+- Testing surfaced contract bugs (emergency withdraw repeatable, open waterfall setters); logged as M1.5.
+- Next: `scripts/deploy.js`, then the M1.5 fixes.
+
 ## 2026-10-20
 
 - Added `progress/` folder (status, roadmap, log).
